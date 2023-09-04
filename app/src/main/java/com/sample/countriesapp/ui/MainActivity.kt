@@ -1,4 +1,4 @@
-package com.sample.countriesapp
+package com.sample.countriesapp.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
