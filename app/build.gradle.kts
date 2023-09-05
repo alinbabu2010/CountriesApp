@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
     id("com.apollographql.apollo3") version "3.8.2"
-    kotlin("kapt")
+    id("com.google.devtools.ksp")
 }
 
 apollo {
@@ -84,7 +84,7 @@ dependencies {
 
     // Hilt-Dagger
     implementation("com.google.dagger:hilt-android:2.48")
-    kapt("com.google.dagger:hilt-compiler:2.48")
+    ksp("com.google.dagger:hilt-compiler:2.48")
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 
     // OkHttp
